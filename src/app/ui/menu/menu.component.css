@@ -1,0 +1,36 @@
+/*.menu {
+     background-color: rgb(65, 64, 64);
+}
+nav {
+    justify-content: none !important;
+    max-height: 65px;
+    height: 65px;
+
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    padding: .5rem 1rem;
+    top: 0px;
+} */
+
+.title {
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left:10%;
+    margin-right:4%;
+    }
+
+small {
+    font: italic;
+    font-size: 0.8rem;
+    color: rgb(0 ,0, 0, 0.4);
+}
+
+h5{
+    color: rgb(0, 0, 0, 0.6);
+}

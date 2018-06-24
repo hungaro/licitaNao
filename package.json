@@ -1,6 +1,10 @@
 {
   "name": "licita-nao",
   "version": "0.0.0",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
   "main": "index.js",
   "scripts": {
     "ng": "ng",
@@ -8,7 +12,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm run build",
     "start": "node index.js"
   },
   "private": true,
@@ -27,8 +30,7 @@
     "@ng-bootstrap/ng-bootstrap": "^2.1.1",
     "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
-    "ejs": "^2.5.6",
-    "express": "^4.15.2",
+     "express": "^4.15.2",
     "rxjs": "^6.0.0",
     "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
@@ -51,8 +53,14 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1"
   },
-  "engines": {
-    "node": "8.11.1",
-    "npm": "5.6.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungaro/licitaNao"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

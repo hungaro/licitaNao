@@ -1,7 +1,7 @@
 {
   "name": "licita-nao",
   "version": "0.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "npm run build",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "private": true,
   "dependencies": {

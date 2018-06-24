@@ -1,11 +1,17 @@
 const express = require('express');
-const app = express();
+const http = require('http');
 const path = require('path');
 
-app.use(express.static(__dirname + '/dist'));
+const app = express();
 
-app.listen(process.env.PORT || 8080);
-app.get('/*', function(req, res){
-  res.sendFile(path.join(__dirname + '/dist/licitanao/index.html'));
+app.use(express.static(path.join(__dirname, 'dist/licitanao')))
 
+
+app.get('/*',(req, res) => {
+  res.sendFile(path.join(__dirname, '/dist/licitanao/index.html'));
 })
+const port = process.env.PORT || 8080;
+app.set('port', port);
+
+const server = http.createServer(app);
+server.listen(port, () => console.log('Running'));

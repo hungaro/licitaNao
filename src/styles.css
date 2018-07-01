@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-/* @import '~bootstrap/dist/css/bootstrap.css'; */
+ @import '~bootstrap/dist/css/bootstrap.css'; 
 
 body {
     background-color: #ccc;
     height:100%;
 }
+.container {
+    margin-bottom: 50px;
+    align-items: center;
+}
+.center {
+    margin: 0 auto;
+    width: 80%;
+} 
